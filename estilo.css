@@ -1,0 +1,12 @@
+@charset "UTF-8";
+header{
+    background-color: rgb(170, 240, 219);
+}
+header li:hover{
+    background-color: rgba(64, 140, 255, 0.705);
+    border-radius:var(--bs-border-radius)!important;
+}
+.alt-450px{
+    height: 450px;
+}
+

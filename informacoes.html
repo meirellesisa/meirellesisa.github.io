@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  <title>Saúde</title>
+  <!---Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!---Cabeçalho / Navegação-->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom mx-5 rounded">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Viver Saude</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="campanhas.html" class="nav-link">Campanhas</a></li>
+          <li class="nav-item"><a href="higiene.html" class="nav-link">Higiene</a></li>
+          <li class="nav-item"><a href="emergencia.html" class="nav-link">Emergencia</a></li>
+          <li class="nav-item"><a href="informacoes.html" class="nav-link active" aria-current="page">Informações</a></li>
+        </ul>
+    </header>
+    <!----slide-->
+    <div id="slidee"></div>
+    <!---Conteudo-->
+    <article class="container">
+    <div class="container flex border border-primary my-3 rounded-3 text-center text-light" style="background-color: rgb(170, 240, 219)">
+      <h1>Postos de Saúde Públicos -RJ</h1>
+    </div>
+    <p>Disponibilizamos aqui alguns hospitais publicos com as melhores avaliações segundo o Google, seu endereço e número para contato, espero que tenhamos te ajudado até aqui!</p>
+      
+        <main id="cards"></main>
+
+        <script src="./main.js"></script>
+
+  </article>
+    <!---Footer-->
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+        <li class="nav-item"><a href="campanhas.html" class="nav-link px-2 text-muted">Campanhas</a></li>
+        <li class="nav-item"><a href="higiene.html" class="nav-link px-2 text-muted">Higiene</a></li>
+        <li class="nav-item"><a href="emergencia.html" class="nav-link px-2 text-muted">Emergência</a></li>
+        <li class="nav-item"><a href="informacoes.html" class="nav-link px-2 text-muted">Informações</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2022 Trabalho PCA</p>
+  </footer>
+  <script>
+    $(document).ready(function(){     
+             $(function(){
+                 $("#slidee").load("slidee.html"); 
+             });
+    });
+    </script>
+</html>
