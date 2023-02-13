@@ -1,5 +1,4 @@
-# meirellesisa.github.io
-Site voltado para saúde e autocuidado, desenvolvido em grupo
+
 # Olá Galera :wave:
 
 Apresento a vocês um site desenvolvido por meu grupo da faculdade, foi uma produção muito interessante onde compartilhamos muito conhecimento, espero que possa compartilhar um pouco com vocês.
